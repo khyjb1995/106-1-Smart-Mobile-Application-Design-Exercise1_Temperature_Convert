@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         txtPastResult.setText("");
         txtResult.setText("");
+        txtInput.setText("0");
     }
     private Button.OnClickListener myListener =new Button.OnClickListener(){
         @Override

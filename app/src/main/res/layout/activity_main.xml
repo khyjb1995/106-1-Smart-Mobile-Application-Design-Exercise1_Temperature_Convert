@@ -8,6 +8,7 @@
 
     <EditText
         android:id="@+id/editText_Input"
+        android:selectAllOnFocus="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -134,6 +135,7 @@
 
     <Button
         android:id="@+id/btnCtoF"
+        android:background="@android:color/holo_blue_bright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -154,6 +156,7 @@
 
     <Button
         android:id="@+id/btnKtoF"
+        android:background="@android:color/holo_green_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -174,6 +177,7 @@
 
     <Button
         android:id="@+id/btnFtoC"
+        android:background="@android:color/holo_red_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -194,6 +198,7 @@
 
     <Button
         android:id="@+id/btnKtoC"
+        android:background="#d442f4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -214,6 +219,7 @@
 
     <Button
         android:id="@+id/btnFtoK"
+        android:background="#f4f141"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -234,6 +240,7 @@
 
     <Button
         android:id="@+id/btnCtoK"
+        android:background="#ff8787"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
